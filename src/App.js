@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <ChartWrapper></ChartWrapper>
+      <ChartWrapper coin="BTC"></ChartWrapper>
     </div>
   );
 }

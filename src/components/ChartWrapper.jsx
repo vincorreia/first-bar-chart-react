@@ -15,6 +15,6 @@ export default function ChartWrapper(props){
     }, [chart, count])
 
     return (
-    <div ref={chartArea}></div>
+    <svg ref={chartArea}></svg>
     )
 }
